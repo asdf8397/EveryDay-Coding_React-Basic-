@@ -36,8 +36,8 @@ function App() {
 
 export default App;
 
-/* 생활코딩 5. props */
-function Header1() {
+/* 생활코딩 5. props */ // React에서 속성을 prop이라고 부른다.
+function Header1(props) {
   return <header>
     <h1><a href="/">WEB</a></h1>
   </header>
